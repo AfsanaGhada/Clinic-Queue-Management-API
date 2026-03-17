@@ -1,0 +1,158 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f3f4f6;
+}
+
+.login-page{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background: linear-gradient(135deg, #3b82f6, #3b82f6);
+}
+.login-container{
+  width:320px;
+  padding:30px;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  
+}
+
+
+/* 
+body{
+  margin:0;
+  font-family:Arial;
+  background: linear-gradient(135deg, #3b82f6, #3b82f6);
+  height:100vh;
+} */
+
+button{
+padding:10px;
+background:#2563eb;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.layout{
+display:flex;
+}
+
+.sidebar{
+  width:220px;
+  background:#1e293b;
+  color:white;
+  height:100vh;
+  padding:20px;
+}
+
+.sidebar a{
+  display:block;
+  color:#cbd5f5;
+  margin:10px 0;
+  text-decoration:none;
+}
+
+.sidebar a:hover{
+  color:white;
+}
+.main{
+flex:1;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+background:white;
+padding:15px;
+}
+
+.content{
+padding:20px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+}
+
+.card{
+background:#3b82f6;
+color:white;
+padding:20px;
+border-radius:6px;
+}
+
+.form{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.form input, .form select{
+  padding:8px;
+  border:1px solid #ccc;
+}
+
+.btn{
+  padding:8px 12px;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+  color:white;
+}
+
+/* Add button */
+.btn-add{
+  background:#16a34a;
+}
+
+/* Edit button */
+.btn-edit{
+  background:#2563eb;
+}
+
+/* Delete button */
+.btn-delete{
+  background:#dc2626;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th,td{
+  border:1px solid #ddd;
+  padding:8px;
+}
+
+.role{
+  padding:4px 10px;
+  border-radius:20px;
+  color:white;
+  font-size:12px;
+}
+
+/* Role Colors */
+.admin{
+  background:#dc2626;
+}
+
+.doctor{
+  background:#2563eb;
+}
+
+.receptionist{
+  background:#f59e0b;
+}
+
+.patient{
+  background:#16a34a;
+}
